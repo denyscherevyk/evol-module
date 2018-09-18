@@ -1,0 +1,6 @@
+numpy
+scipy
+pandas
+tables
+scikit-learn
+nose>=1.0

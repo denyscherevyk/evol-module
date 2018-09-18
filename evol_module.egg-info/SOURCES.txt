@@ -1,0 +1,11 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+evol_module.egg-info/PKG-INFO
+evol_module.egg-info/SOURCES.txt
+evol_module.egg-info/dependency_links.txt
+evol_module.egg-info/namespace_packages.txt
+evol_module.egg-info/not-zip-safe
+evol_module.egg-info/requires.txt
+evol_module.egg-info/top_level.txt
