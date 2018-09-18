@@ -62,5 +62,6 @@ git remote add origin https://github.com/denyscherevyk/evol-module.git
 git add .
 git commit -m "Initial commit"
 git pull origin master
-git push origin master
+git push origin evol-module
+git pull origin evol-module --allow-unrelated-histories
 '''
