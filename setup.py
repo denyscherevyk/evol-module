@@ -58,6 +58,8 @@ git init .
 git config --global user.email "denys.cherevyk@gmail.com"
 git config --global user.name "denyscherevyk"
 git config --get-all "denyschrevyk"
+git remote add origin https://github.com/denyscherevyk/evol-module.git
 git add .
-
+git commit -m "Initial commit"
+git pull origin master
 '''
