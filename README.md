@@ -71,7 +71,7 @@ You can run the package on your own data, important must bleed out that this dat
     >>> gen = gene_selection(gen=30, model=model)
     >>> gen.evol_gene(X,Y)
 
-Let's use the Genetoc Selection compare with Logistic Regression to run 5-fold cross
+Let's use the Genetic Selection compare with Logistic Regression to run 5-fold cross
 validation on the training data.
 ::
 
