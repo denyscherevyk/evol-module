@@ -72,7 +72,8 @@ You can run the package on your own data, important must bleed out that this dat
     >>> gen.evol_gene(X,Y)
 
 Let's use the Genetoc Selection compare with Logistic Regression to run 5-fold cross
-validation on the training data::
+validation on the training data.
+::
     >>> [FIT RESULT GEN# 1], AV: 0.4450, MIN: 0.4450, SD: 0.0000, MAX: 0.4450
     >>> [FIT RESULT GEN# 2], AV: 0.3950, MIN: 0.3450, SD: 0.0500, MAX: 0.4450
     >>> [FIT RESULT GEN# 3], AV: 0.3475, MIN: 0.3450, SD: 0.0025, MAX: 0.3500
