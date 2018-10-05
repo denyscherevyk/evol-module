@@ -45,11 +45,11 @@ Install with pip.::
 
 To install package from github. ::
 
-    $ pip install git+git://github.com/jkbr/httpie.git
+    $ pip install git+https://github.com/denyscherevyk/evol-module.git
 
 or::
 
-    $ git clone https://github.com/jkbr/httpie.git
+    $ git clone https://github.com/denyscherevyk/evol-module.git
 
 After just run the setup.py file from install directory. ::
 
@@ -62,7 +62,7 @@ How run framework
 You can run the package on your own data, important must bleed out that this data is like as array.
 ::
 
-    >>> from eqmagene import gene_selection
+    >>> from evol-module import gene_selection
     >>> X = np.array(d)[:, 1:10]
     >>> Y = np.array(d)[:, 10]
     >>> Y = Y.astype('int')
@@ -91,6 +91,6 @@ validation on the training data.
 License
 =======
 
-Eqmagene is distributed under the the GPL v3+. See LICENSE file for details.
-Where indicated by code comments parts of NumPy, Pandas, Sklearn are included in Eqmagene. The
+evol-module is distributed under the the GPL v3+. See LICENSE file for details.
+Where indicated by code comments parts of NumPy, Pandas, Sklearn are included in evol-module. The
 they license appears in the licenses directory.
