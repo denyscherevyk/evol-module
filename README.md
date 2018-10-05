@@ -41,7 +41,7 @@ Install
 
 Install with pip.::
 
-    $ pip install eqmagene
+    $ pip install evol-module
 
 To install package from github. ::
 
